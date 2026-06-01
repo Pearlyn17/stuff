@@ -63,7 +63,7 @@ grid::grid.text("Figure: Frequently Used Words in Singapore Budget Statement",
                 gp = grid::gpar(col = "salmon", fontsize = 14))
 
 # --- Tokenisation --- #
-sentences <- c(one = "There are many types of pokemon e.g. water, fire... which is your favourite pokemon?",
-          two = "My favourite kpop artistes are fromis9's Lee Nagyung, Song Hayoung, Baek Jiheon, ITZY's Yuna and IVE's Leeseo - too many kpop fandom")
+sentences <- c(one = "Aespa's Lemonade is a hot song",
+          two = "My favourite kpop artistes are fromis9's Lee Nagyung, Song Hayoung, Baek Jiheon, Aespa's Winter and Karina and IVE's Leeseo - too many kpop fandom")
 words <- tokens(sentences)
 words
