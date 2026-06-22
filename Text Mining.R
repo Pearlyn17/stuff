@@ -63,7 +63,8 @@ grid::grid.text("Figure: Frequently Used Words in Singapore Budget Statement",
                 gp = grid::gpar(col = "salmon", fontsize = 14))
 
 # --- Tokenisation --- #
-sentences <- c(one = "来点歌 My song recommendations are Lee Nagyung's Euphoria, ILLIT's Almond Chocolate and IVE Leeseo's 想见你!",
-          two = "My favourite beautiful kpop artistes are fromis9's Lee Nagyung, Song Hayoung, Baek Jiheon, Aespa's Winter and Karina and IVE's Leeseo - too many kpop fandom")
+sentences <- c(one = "I really love music. Kpop brought me into the world of music. My song recommendations are IVE Leeseo's 想见你, Monsta X's One Day and ILLIT's 가장 빛날 너에게!",
+              two = "My favourite beautiful kpop artistes are fromis9's Lee Nagyung, Song Hayoung & Baek Jiheon, Aespa's Winter & Karina and IVE's Leeseo - too many kpop fandom",
+              three = "Machine learning is another wonderful thing in my life")
 words <- tokens(sentences)
 words
