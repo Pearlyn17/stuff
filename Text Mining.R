@@ -63,7 +63,7 @@ grid::grid.text("Figure: Frequently Used Words in Singapore Budget Statement",
                 gp = grid::gpar(col = "salmon", fontsize = 14))
 
 # --- Tokenisation --- #
-sentences <- c(one = "I really love music. Kpop brought me into the world of music. My song recommendations are IVE Leeseo's 想见你, Monsta X's One Day, ILLIT's 가장 빛날 너에게 and Almond Chocolate!",
+sentences <- c(one = "I really love music. Kpop brought me into the world of music. My song recommendations are IVE Leeseo's 想见你, Monsta X's baby blue, ILLIT's 가장 빛날 너에게 and Almond Chocolate!",
               two = "Machine Learning is another wonderful thing in my life")
 words <- tokens(sentences)
 words
